@@ -1,0 +1,34 @@
+chrome install
+======================
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb
+
+how to check installed pakages
+==============================
+sudo apt list --installed            
+sudo apt list --installed | grep google
+
+
+dpkg-query -l
+dpkg-query -l | grep google
+
+
+rpm -qa
+yum list installed
+
+screen recoreder
+===================================
+
+sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
+sudo add-apt-repository ppa:marten-baert/simplescreenrecorder
+sudo apt-get update
+sudo apt-get install simplescreenrecorder
+
+
+Admin 279da67316fea4d7fcd8622c9382bdaba6f13cad
+
+
+
+
+
+
